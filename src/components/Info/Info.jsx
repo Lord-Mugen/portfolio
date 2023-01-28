@@ -2,7 +2,7 @@ const Info = () => {
   return (
     <div className="home__info">
       <h1 className="home__title">
-        Christian Ruiz
+        Christian {/* Ruiz */}
         <svg
           width="36"
           height="36"
@@ -55,8 +55,8 @@ const Info = () => {
       </h1>
       <h3 className="home__subtitle">Web Developer</h3>
       <p className="home__description">
-        I'm a capable web developer based in Colombia, and i'm very passionate
-        and dedicated to my work.
+        I'm a colombian fullstack web developer, i'm capable and very passionate
+        with a lot of dedication to my work.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello

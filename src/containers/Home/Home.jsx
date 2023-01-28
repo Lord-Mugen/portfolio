@@ -1,5 +1,5 @@
 import "./home.css";
-import { Social, Info } from "../../components/";
+import { Social, Info, ScrollDown } from "../../components/";
 
 const Home = () => {
   return (
@@ -10,6 +10,7 @@ const Home = () => {
           <div className="home__img"></div>
           <Info />
         </div>
+        <ScrollDown />
       </div>
     </section>
   );
