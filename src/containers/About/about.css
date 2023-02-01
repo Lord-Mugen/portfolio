@@ -64,6 +64,7 @@
 
   .about__info {
     justify-content: center;
+    grid-template-columns: repeat(3, 140px);
   }
 
   .about__description {
@@ -79,8 +80,13 @@
     justify-items: center;
   }
 
+  .about__box {
+    width: 100px;
+  }
+
   .about__info {
     grid-template-columns: repeat(3, 1rf);
+    display: flex;
   }
 
   .about__description {
@@ -89,6 +95,11 @@
 }
 
 @media screen and (max-width: 350px) {
+  .about__box {
+    width: 30%;
+    height: 120px;
+  }
+
   .about__info {
     grid-template-columns: repeat(2, 1fr);
   }

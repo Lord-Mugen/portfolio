@@ -1,6 +1,6 @@
 import "./App.css";
 import { Header } from "./components";
-import { Home, About } from "./containers";
+import { Home, About, Skills } from "./containers";
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <main className="main">
         <Home />
         <About />
+        <Skills />
       </main>
     </>
   );
