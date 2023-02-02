@@ -53,6 +53,7 @@ const Contact = () => {
 
               <a
                 href="https://api.whatsapp.com/send?phone=573108672765&text=Hello,%20I%20have%20a%20job%20for%20you%20as%20a%20web%20developer"
+                target="_blank"
                 className="contact__button"
               >
                 Write me
@@ -70,6 +71,7 @@ const Contact = () => {
 
               <a
                 href="https://www.messenger.com/t/100006784263123/"
+                target="_blank"
                 className="contact__button"
               >
                 Write me
