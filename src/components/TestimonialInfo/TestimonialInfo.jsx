@@ -1,6 +1,6 @@
 import Image1 from "../../assets/ricardo-profile-pic.png";
 import Image2 from "../../assets/vased-profile-pic.jpeg";
-import Image3 from "../../assets/testimonial3.png";
+import Image3 from "../../assets/diana.jpg";
 
 export const Data = [
   {
@@ -20,8 +20,8 @@ export const Data = [
   {
     id: 3,
     image: Image3,
-    title: "Sara Cill",
+    title: "Laura Mendez",
     description:
-      "A really good job, all aspects of the project were followed step by step and with good results.",
+      "He has a good performance and meets the requirements assigned during his work on time.",
   },
 ];

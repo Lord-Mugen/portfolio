@@ -1,39 +1,103 @@
-import Work1 from "../../assets/work1.jpg";
-import Work2 from "../../assets/work2.jpg";
-import Work3 from "../../assets/work3.jpg";
-import Work4 from "../../assets/work4.jpg";
-import Work5 from "../../assets/work5.jpg";
+import Gpt from "../../assets/gpt.jpg";
+import News from "../../assets/news.jpg";
+import Dom from "../../assets/dom.jpg";
+import Avia from "../../assets/avia.jpg";
+import Aranda from "../../assets/aranda.jpg";
+import Portfolio1 from "../../assets/portfolio1.jpg";
+import Chiwi from "../../assets/chiwi.jpg";
+import Snake from "../../assets/snake.jpg";
+import Menta from "../../assets/menta.jpg";
+import Vased from "../../assets/vased.jpg";
 
 export const projectsData = [
   {
     id: 1,
-    image: Work1,
-    title: "Web design",
+    image: Gpt,
+    title: "Chat GPT-3 landing page",
     category: "web",
+    deploy: "https://gpt-project.vercel.app/",
   },
   {
     id: 2,
-    image: Work2,
-    title: "App movil",
-    category: "app",
+    image: News,
+    title: "News Homepage",
+    category: "web",
+    deploy: "https://news-homepage-ivory-eight.vercel.app/",
   },
   {
     id: 3,
-    image: Work3,
-    title: "Brand design",
-    category: "design",
+    image: Dom,
+    title: "Toquen el dom",
+    category: "web",
+    deploy: "http://luiscabal.me/Toquen-el-DOM/",
   },
   {
     id: 4,
-    image: Work4,
-    title: "App movil",
-    category: "app",
+    image: Avia,
+    title: "Avia Test",
+    category: "web",
+    deploy: "https://avia-test-three.vercel.app/",
   },
   {
     id: 5,
-    image: Work5,
-    title: "Web design",
+    image: Aranda,
+    title: "Aranda Test",
     category: "web",
+    deploy: "https://aranda-test.vercel.app/",
+  },
+  {
+    id: 6,
+    image: Portfolio1,
+    title: "First portfolio design",
+    category: "design",
+    deploy:
+      "https://www.figma.com/file/IACOycU4H5H95hLoThctlQ/Portfolio?node-id=0%3A1&t=6tLAvNvfnQ6aRZAR-1",
+  },
+  {
+    id: 7,
+    image: Chiwi,
+    title: "Chiwi academy design",
+    category: "design",
+    deploy:
+      "https://www.figma.com/file/Jh1CKBC7b7NJh95VJB0E1e/Chiwi-academy?node-id=0%3A1&t=osQ7I6NnYNPk8aBn-1",
+  },
+  {
+    id: 8,
+    image: Snake,
+    title: "Python snake game",
+    category: "app",
+    deploy: "https://github.com/Lord-Mugen/Snake-Game",
+  },
+  {
+    id: 9,
+    image: Menta,
+    title: "Menta y violeta design",
+    category: "design",
+    deploy:
+      "https://www.figma.com/file/rKKO0FhoKH3xBORbZYlWzG/Mentta-y-Violetta?node-id=0%3A1&t=CqJ43MF5jVkObPHo-1",
+  },
+  {
+    id: 10,
+    image: Dom,
+    title: "Toquen el dom design",
+    category: "design",
+    deploy:
+      "https://www.figma.com/file/bOrqJ6uJKM3uYF1NiQ2XEU/Aplicaci%C3%B3n-Web-M%C3%BAsical?node-id=0%3A1&t=b6VIjpHTxKcC44oz-1e",
+  },
+  {
+    id: 11,
+    image: Vased,
+    title: "Vased school app design",
+    category: "design",
+    deploy:
+      "https://www.figma.com/file/4PrKIOMJgIZzl2d1CH0joY/Vased-LMS-last?node-id=0%3A1&t=Rtr3yvVBQUXVSv3K-1",
+  },
+  {
+    id: 12,
+    image: Vased,
+    title: "Vased school app",
+    category: "app",
+    deploy: "https://vased-web.vercel.app/",
   },
 ];
 
