@@ -7,3 +7,4 @@ export { default as FrontEnd } from "./FrontEnd/FrontEnd.jsx";
 export { default as BackEnd } from "./BackEnd/BackEnd.jsx";
 export { default as Services } from "./Services/Services.jsx";
 export { default as Qualification } from "./Qualification/Qualification.jsx";
+export { default as Contact } from "./Contact/Contact.jsx";

@@ -1,6 +1,6 @@
 import "./App.css";
-import { Header, Services, Qualification } from "./components";
-import { Home, About, Skills } from "./containers";
+import { Header, Services, Qualification, Contact } from "./components";
+import { Home, About, Skills, Testimonials } from "./containers";
 
 function App() {
   return (
@@ -12,6 +12,8 @@ function App() {
         <Skills />
         <Services />
         <Qualification />
+        <Testimonials />
+        <Contact />
       </main>
     </>
   );
