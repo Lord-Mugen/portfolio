@@ -8,3 +8,5 @@ export { default as BackEnd } from "./BackEnd/BackEnd.jsx";
 export { default as Services } from "./Services/Services.jsx";
 export { default as Qualification } from "./Qualification/Qualification.jsx";
 export { default as Contact } from "./Contact/Contact.jsx";
+export { default as Footer } from "./Footer/Footer.jsx";
+export { default as ScrollUp } from "./ScrollUp/ScrollUp.jsx";

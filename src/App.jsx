@@ -1,5 +1,12 @@
 import "./App.css";
-import { Header, Services, Qualification, Contact } from "./components";
+import {
+  Header,
+  Services,
+  Qualification,
+  Contact,
+  Footer,
+  ScrollUp,
+} from "./components";
 import { Home, About, Skills, Testimonials } from "./containers";
 
 function App() {
@@ -15,6 +22,8 @@ function App() {
         <Testimonials />
         <Contact />
       </main>
+      <Footer />
+      <ScrollUp />
     </>
   );
 }
