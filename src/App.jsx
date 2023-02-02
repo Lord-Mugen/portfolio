@@ -7,7 +7,7 @@ import {
   Footer,
   ScrollUp,
 } from "./components";
-import { Home, About, Skills, Testimonials } from "./containers";
+import { Home, About, Skills, Testimonials, Work } from "./containers";
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
         <Skills />
         <Services />
         <Qualification />
+        <Work />
         <Testimonials />
         <Contact />
       </main>
