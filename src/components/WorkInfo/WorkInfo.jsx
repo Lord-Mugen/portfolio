@@ -9,6 +9,7 @@ import Snake from "../../assets/snake.jpg";
 import Menta from "../../assets/menta.jpg";
 import Vased from "../../assets/vased.jpg";
 import Restaurant from "../../assets/restaurant.jpeg";
+import Bank from "../../assets/bank.jpg";
 
 export const projectsData = [
   {
@@ -27,34 +28,41 @@ export const projectsData = [
   },
   {
     id: 3,
+    image: Bank,
+    title: "Modern bank landing page",
+    category: "web",
+    deploy: "https://bank-app-alpha.vercel.app/",
+  },
+  {
+    id: 4,
     image: News,
     title: "News Homepage",
     category: "web",
     deploy: "https://news-homepage-ivory-eight.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     image: Dom,
     title: "Toquen el dom",
     category: "web",
     deploy: "http://luiscabal.me/Toquen-el-DOM/",
   },
   {
-    id: 5,
+    id: 6,
     image: Avia,
     title: "Avia Test",
     category: "web",
     deploy: "https://avia-test-three.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     image: Aranda,
     title: "Aranda Test",
     category: "web",
     deploy: "https://aranda-test.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     image: Portfolio1,
     title: "First portfolio design",
     category: "design",
@@ -62,7 +70,7 @@ export const projectsData = [
       "https://www.figma.com/file/IACOycU4H5H95hLoThctlQ/Portfolio?node-id=0%3A1&t=6tLAvNvfnQ6aRZAR-1",
   },
   {
-    id: 8,
+    id: 9,
     image: Chiwi,
     title: "Chiwi academy design",
     category: "design",
@@ -70,14 +78,14 @@ export const projectsData = [
       "https://www.figma.com/file/Jh1CKBC7b7NJh95VJB0E1e/Chiwi-academy?node-id=0%3A1&t=osQ7I6NnYNPk8aBn-1",
   },
   {
-    id: 9,
+    id: 10,
     image: Snake,
     title: "Python snake game",
     category: "app",
     deploy: "https://github.com/Lord-Mugen/Snake-Game",
   },
   {
-    id: 10,
+    id: 11,
     image: Menta,
     title: "Menta y violeta design",
     category: "design",
@@ -86,7 +94,7 @@ export const projectsData = [
   },
 
   {
-    id: 11,
+    id: 12,
     image: Vased,
     title: "Vased school app design",
     category: "design",
@@ -94,7 +102,7 @@ export const projectsData = [
       "https://www.figma.com/file/4PrKIOMJgIZzl2d1CH0joY/Vased-LMS-last?node-id=0%3A1&t=Rtr3yvVBQUXVSv3K-1",
   },
   {
-    id: 12,
+    id: 13,
     image: Dom,
     title: "Toquen el dom design",
     category: "design",
@@ -102,7 +110,7 @@ export const projectsData = [
       "https://www.figma.com/file/bOrqJ6uJKM3uYF1NiQ2XEU/Aplicaci%C3%B3n-Web-M%C3%BAsical?node-id=0%3A1&t=b6VIjpHTxKcC44oz-1e",
   },
   {
-    id: 13,
+    id: 14,
     image: Vased,
     title: "Vased school app",
     category: "app",
