@@ -8,6 +8,7 @@ import Chiwi from "../../assets/chiwi.jpg";
 import Snake from "../../assets/snake.jpg";
 import Menta from "../../assets/menta.jpg";
 import Vased from "../../assets/vased.jpg";
+import Restaurant from "../../assets/restaurant.jpg";
 
 export const projectsData = [
   {
@@ -98,6 +99,13 @@ export const projectsData = [
     title: "Vased school app",
     category: "app",
     deploy: "https://vased-web.vercel.app/",
+  },
+  {
+    id: 13,
+    image: Restaurant,
+    title: "Gericht restaurant",
+    category: "web",
+    deploy: "https://react-restaurant-lord-mugen.vercel.app/",
   },
 ];
 
