@@ -1,8 +1,8 @@
 const Info = () => {
   return (
     <div className="home__info">
-      <h1 className="home__title">
-        Christian {/* Ruiz */}
+      <h1 className="home__title" translate="no">
+        Christian
         <svg
           width="36"
           height="36"
