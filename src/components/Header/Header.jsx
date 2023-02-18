@@ -26,6 +26,7 @@ const Header = () => {
                 className={
                   activenav === "#home" ? "nav__link active-link" : "nav__link"
                 }
+                translate="no"
               >
                 <i className="uil uil-estate nav__icon"></i> Home
               </a>
