@@ -6,3 +6,10 @@ This is a portfolio to show my skills with some of my most recent code jobs.
 
 ## Link to my portfolio
 https://mugen-portfolio.vercel.app/
+
+## Technologies used:
+- Reactjs: Hooks and jsx.
+- Vite: npm create vite@latest.
+- css: Bem.
+- swiper.
+- Emailjs
