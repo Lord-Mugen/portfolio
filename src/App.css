@@ -64,6 +64,20 @@
   }
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #333333;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #000;
+}
+
 /*=============== BASE ===============*/
 * {
   margin: 0;
