@@ -63,8 +63,8 @@
     --smaller-font-size: 0.75rem;
   }
 }
-
-::-webkit-scrollbar {
+/* ==== webkit styles ==== */
+/* ::-webkit-scrollbar {
   width: 8px;
   background-color: #fff;
 }
@@ -76,7 +76,7 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: #000;
-}
+} */
 
 /*=============== BASE ===============*/
 * {
