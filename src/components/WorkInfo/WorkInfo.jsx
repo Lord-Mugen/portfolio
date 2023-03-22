@@ -56,13 +56,13 @@ export const projectsData = [
     category: "web",
     deploy: "https://news-homepage-ivory-eight.vercel.app/",
   },
-  {
+ /*  {
     id: 7,
     image: Dom,
     title: "Toquen el dom",
     category: "web",
     deploy: "http://luiscabal.me/Toquen-el-DOM/",
-  },
+  }, */
   {
     id: 8,
     image: Avia,
