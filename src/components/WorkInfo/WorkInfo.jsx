@@ -12,6 +12,7 @@ import Restaurant from "../../assets/restaurant.jpeg";
 import Bank from "../../assets/bank.jpg";
 import CarRental from "../../assets/carRental.webp";
 import Grilli from "../../assets/grilli.jpg";
+import Gamic from "../../assets/gamic.jpg";
 
 export const projectsData = [
   {
@@ -49,20 +50,20 @@ export const projectsData = [
     category: "web",
     deploy: "https://grilli-restaurant.vercel.app/",
   },
-  {
+   {
     id: 6,
+    image: Gamic,
+    title: "Gamic landgin page",
+    category: "web",
+    deploy: "https://gamics-mugen.vercel.app/",
+  },
+  {
+    id: 7,
     image: News,
     title: "News Homepage",
     category: "web",
     deploy: "https://news-homepage-ivory-eight.vercel.app/",
   },
- /*  {
-    id: 7,
-    image: Dom,
-    title: "Toquen el dom",
-    category: "web",
-    deploy: "http://luiscabal.me/Toquen-el-DOM/",
-  }, */
   {
     id: 8,
     image: Avia,
