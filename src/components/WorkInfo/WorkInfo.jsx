@@ -57,13 +57,13 @@ export const projectsData = [
     category: "web",
     deploy: "https://bank-app-alpha.vercel.app/",
   },
-  {
-    id: 7,
-    image: News,
-    title: "News Homepage",
-    category: "web",
-    deploy: "https://news-homepage-ivory-eight.vercel.app/",
-  },
+  // {
+  //   id: 7,
+  //   image: News,
+  //   title: "News Homepage",
+  //   category: "web",
+  //   deploy: "https://news-homepage-ivory-eight.vercel.app/",
+  // },
   {
     id: 8,
     image: Avia,
