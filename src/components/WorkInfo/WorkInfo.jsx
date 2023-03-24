@@ -31,10 +31,10 @@ export const projectsData = [
   },
   {
     id: 3,
-    image: Bank,
-    title: "Modern bank landing page",
+    image: Gamic,
+    title: "Gamic landgin page",
     category: "web",
-    deploy: "https://bank-app-alpha.vercel.app/",
+    deploy: "https://gamics-mugen.vercel.app/",
   },
   {
     id: 4,
@@ -50,12 +50,12 @@ export const projectsData = [
     category: "web",
     deploy: "https://grilli-restaurant.vercel.app/",
   },
-   {
+  {
     id: 6,
-    image: Gamic,
-    title: "Gamic landgin page",
+    image: Bank,
+    title: "Modern bank landing page",
     category: "web",
-    deploy: "https://gamics-mugen.vercel.app/",
+    deploy: "https://bank-app-alpha.vercel.app/",
   },
   {
     id: 7,
