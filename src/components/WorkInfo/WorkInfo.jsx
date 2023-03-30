@@ -8,7 +8,7 @@ import Menta from "../../assets/menta.jpg";
 import Vased from "../../assets/vased.jpg";
 import Restaurant from "../../assets/restaurant.jpeg";
 import Bank from "../../assets/bank.jpg";
-import CarRental from "../../assets/carRental.webp";
+import CarRental from "../../assets/carRental.jpg";
 import Grilli from "../../assets/grilli.jpg";
 import Gamic from "../../assets/gamic.jpg";
 import Nike from "../../assets/nike.webp";

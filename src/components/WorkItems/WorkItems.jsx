@@ -3,7 +3,9 @@ import React from "react";
 const WorksItems = ({ item }) => {
   return (
     <div className="work__card" key={item.id}>
-      <img src={item.image} alt="project img" className="work__img" />
+      <a href={item.deploy}>
+        <img src={item.image} alt="project img" className="work__img" />
+      </a>
       <h3 className="work__title">{item.title}</h3>
       <a href={item.deploy} target="_blank" className="work__button">
         Demo <i className="bx bx-right-arrow-alt work__button-icon"></i>
