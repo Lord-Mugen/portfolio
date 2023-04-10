@@ -12,6 +12,7 @@ import CarRental from "../../assets/carRental.jpg";
 import Grilli from "../../assets/grilli.jpg";
 import Gamic from "../../assets/gamic.jpg";
 import Nike from "../../assets/nike.webp";
+import Travia from "../../assets/travia.jpg";
 
 export const projectsData = [
   {
@@ -59,25 +60,32 @@ export const projectsData = [
   },
   {
     id: 7,
+    image: Travia,
+    title: "Multipages travel website",
+    category: "web",
+    deploy: "https://lord-mugen.github.io/travia/index.html",
+  },
+  {
+    id: 8,
     image: Bank,
     title: "Modern bank landing page",
     category: "web",
     deploy: "https://bank-app-alpha.vercel.app/",
   },
   {
-    id: 8,
+    id: 9,
     image: Avia,
     title: "Avia Test",
     category: "web",
     deploy: "https://avia-test-three.vercel.app/",
   },
-  {
-    id: 9,
-    image: Aranda,
-    title: "Aranda Test",
-    category: "web",
-    deploy: "https://aranda-test.vercel.app/",
-  },
+  // {
+  //   id: 10,
+  //   image: Aranda,
+  //   title: "Aranda Test",
+  //   category: "web",
+  //   deploy: "https://aranda-test.vercel.app/",
+  // },
   {
     id: 10,
     image: Portfolio1,
