@@ -1,6 +1,6 @@
 import "./about.css";
 import AboutImg from "../../assets/about-me.jpg";
-import CV from "../../assets/Professional Resume.pdf";
+import CV from "../../assets/Professional Web Developer Resume.pdf";
 import { AboutInfo } from "../../components";
 
 const About = () => {
@@ -15,8 +15,8 @@ const About = () => {
         <div className="about__data">
           <AboutInfo />
           <p className="about__description">
-            Fullstack developer, I create web pages with UI/UX user interface,
-            I have years of experience and many clients are happy with the
+            Fullstack developer, I create web pages with UI/UX user interface, I
+            have years of experience and many clients are happy with the
             projects carried out.
           </p>
           <a download="" href={CV} className="button button--flex">
