@@ -13,7 +13,7 @@ import Grilli from "../../assets/grilli.jpg";
 import Gamic from "../../assets/gamic.jpg";
 import Nike from "../../assets/nike.webp";
 import Travia from "../../assets/travia.jpg";
-import Movies from "../../assets/movies.jpg";
+import Movies from "../../assets/movies.webp";
 
 export const projectsData = [
   {
