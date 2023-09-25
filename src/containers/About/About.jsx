@@ -1,6 +1,6 @@
 import "./about.css";
 import AboutImg from "../../assets/about-me.jpg";
-import CV from "../../assets/Professional Web Developer Resume.pdf";
+import CV from "../../assets/Professional Web Developer Resume-2023.pdf";
 import { AboutInfo } from "../../components";
 
 const About = () => {

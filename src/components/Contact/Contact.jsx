@@ -1,6 +1,8 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const form = useRef();
@@ -8,12 +10,25 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-      "service_reyzb9w",
-      "template_g19hrga",
-      form.current,
-      "Qdnjg9x1WzH5wXMCY"
-    );
+    emailjs
+      .sendForm(
+        "service_reyzb9w",
+        "template_g19hrga",
+        form.current,
+        "Qdnjg9x1WzH5wXMCY"
+      )
+      .then((response) => {
+        console.log("Email enviado con éxito:", response);
+
+        // Muestra una notificación de éxito
+        toast.success("¡El correo se envió con éxito!");
+      })
+      .catch((error) => {
+        console.error("Error al enviar el correo:", error);
+
+        // Muestra una notificación de error
+        toast.error("Hubo un error al enviar el correo.");
+      });
     e.target.reset();
   };
 
@@ -93,6 +108,7 @@ const Contact = () => {
                 name="name"
                 className="contact__form-input"
                 placeholder="Insert your name"
+                required
               />
             </div>
             {/* form div 2 */}
@@ -103,6 +119,7 @@ const Contact = () => {
                 name="email"
                 className="contact__form-input"
                 placeholder="Insert your email"
+                required
               />
             </div>
             {/* form div 3 */}
@@ -114,6 +131,7 @@ const Contact = () => {
                 rows="10"
                 className="contact__form-input"
                 placeholder="Write your project here"
+                required
               ></textarea>
             </div>
 
@@ -140,6 +158,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      <ToastContainer />
     </section>
   );
 };
