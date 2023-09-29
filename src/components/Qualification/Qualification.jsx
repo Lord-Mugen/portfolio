@@ -50,10 +50,10 @@ const Qualification = () => {
             {/* data 1 */}
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Development</h3>
-                <span className="qualification__subtitle">Self taught</span>
+                <h3 className="qualification__title">Systems</h3>
+                <span className="qualification__subtitle">SENA</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i>2020 - currently
+                  <i className="uil uil-calendar-alt"></i>2019 - 2020
                 </div>
               </div>
 
@@ -65,11 +65,20 @@ const Qualification = () => {
             {/* data 2 */}
             <div className="qualification__data">
               <div></div>
-
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
+              <div>
+                <h3 className="qualification__title">Web Development</h3>
+                <span className="qualification__subtitle">Self taught</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>2020 - Always
+                </div>
+              </div>
+            </div>
+            {/* data 3 */}
+            <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Web Development</h3>
                 <span className="qualification__subtitle" translate="no">
@@ -78,10 +87,19 @@ const Qualification = () => {
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>2021 - 2022
                 </div>
+              </div>{" "}
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
               </div>
             </div>
-            {/* data 3 */}
+            {/* data 4 */}
             <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
               <div>
                 <h3 className="qualification__title">Web Design</h3>
                 <span className="qualification__subtitle" translate="no">
@@ -90,11 +108,6 @@ const Qualification = () => {
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>2021 - 2022
                 </div>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
               </div>
             </div>
           </div>
