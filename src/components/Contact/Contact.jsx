@@ -77,15 +77,13 @@ const Contact = () => {
             </div>
             {/* card 3 */}
             <div className="contact__card">
-              <i className="bx bxl-messenger contact__card-icon"></i>
+              <i class="bx bxl-telegram contact__card-icon"></i>
 
-              <h3 className="contact__card-title">Messenger</h3>
-              <span className="contact__card-data">
-                Christian Javier Ruiz Cortés
-              </span>
+              <h3 className="contact__card-title">Telegram</h3>
+              <span className="contact__card-data">Christian Ruiz</span>
 
               <a
-                href="https://www.messenger.com/t/100006784263123/"
+                href="https://t.me/CHRISTANCHOJ"
                 target="_blank"
                 className="contact__button"
               >
