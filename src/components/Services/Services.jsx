@@ -43,8 +43,8 @@ const Services = () => {
                 Product <br /> Developer
               </h3>
               <p className="services__modal-description">
-                Service with more than 2 and a half years of experience.
-                Providing quality work to clients and companies.
+                Service with 3 years of experience. Providing quality work to
+                clients and companies.
               </p>
 
               <ul className="services__modal-services grid">
