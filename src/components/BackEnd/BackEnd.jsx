@@ -11,7 +11,7 @@ const BackEnd = () => {
               <h3 className="skills__name" translate="no">
                 Node Js
               </h3>
-              <span className="skills__level">Basic+</span>
+              <span className="skills__level">Intermediate+</span>
             </div>
           </div>
           <div className="skills__data">
@@ -20,7 +20,7 @@ const BackEnd = () => {
               <h3 className="skills__name" translate="no">
                 Express
               </h3>
-              <span className="skills__level">Basic+</span>
+              <span className="skills__level">Intermediate+</span>
             </div>
           </div>
           <div className="skills__data">
@@ -55,7 +55,7 @@ const BackEnd = () => {
               <h3 className="skills__name" translate="no">
                 Nest Js
               </h3>
-              <span className="skills__level">Intermediate</span>
+              <span className="skills__level">Intermediate+</span>
             </div>
           </div>
         </div>
