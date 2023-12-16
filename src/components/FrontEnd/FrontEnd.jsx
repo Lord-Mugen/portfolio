@@ -32,7 +32,7 @@ const FrontEnd = () => {
               <h3 className="skills__name" translate="no">
                 Next Js
               </h3>
-              <span className="skills__level">Intermediate+</span>
+              <span className="skills__level">Advanced</span>
             </div>
           </div>
         </div>
@@ -67,7 +67,7 @@ const FrontEnd = () => {
             <i class="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">Redux</h3>
-              <span className="skills__level">Basic</span>
+              <span className="skills__level">Intermediate</span>
             </div>
           </div>
         </div>
